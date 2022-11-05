@@ -1,0 +1,3 @@
+Hostname 18.192.3.142
+IdentityFile /home/ec2-user/.ssh/new
+User ubuntu

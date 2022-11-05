@@ -1,0 +1,12 @@
+- name: deploy
+  become: true
+  hosts: Exam_slave3
+  vars_files:
+    - vars/main.yml
+  roles:
+    - setup
+    - apache2
+    - php
+    - composer
+#   - mysql
+#   - deploy
