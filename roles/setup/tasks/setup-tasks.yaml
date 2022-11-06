@@ -1,4 +1,4 @@
-# setup yaml file for task
+# yaml setup file for task
 - name: update slave server
   command: apt update
 
